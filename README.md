@@ -1,10 +1,10 @@
 🖥️ Simulador de Memória Cache
 
-Disciplina: Organização de Computadores
-Instituição: UNIVALI
-Professor: Thiago Felski Pereira, M.Sc
-Autores: Leonardo Carvalho Bikulcius e Mariah Theodora Gondim Bork
-Data: 11/06/2026
+- Disciplina: Organização de Computadores
+- Instituição: UNIVALI
+- Professor: Thiago Felski Pereira, M.Sc
+- Autores: Leonardo Carvalho Bikulcius e Mariah Theodora Gondim Bork
+- Data: 11/06/2026
 
 ---
 
@@ -241,15 +241,6 @@ Teste 3: Validação de Erros
 - Arquivo inexistente: ❌ Detectado ✅
 - Endereço fora do range: ❌ Detectado ✅
 - Parâmetros inválidos: ❌ Detectado ✅
-
----
-
-👨💻 Autores
-
-- Leonardo Carvalho Bikulcius
-- Mariah Theodora Gondim Bork
-
-Disciplina: Organização de Computadores
 
 Professor: Thiago Felski Pereira, M.Sc
 
