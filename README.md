@@ -177,23 +177,23 @@ Configuração:
 
 Mapeamento Direto (assoc=1)
 
-Cada bloco da memória principal pode ocupar apenas uma linha específica da cache. Se dois endereços diferentes mapeiam para o mesmo conjunto, ocorre um **conflito** e um bloco substitui o outro.
+- Cada bloco da memória principal pode ocupar apenas uma linha específica da cache. Se dois endereços diferentes mapeiam para o mesmo conjunto, ocorre um **conflito** e um bloco substitui o outro.
 
-Vantagem: Simples e rápido
+✅ Vantagem: Simples e rápido
 
-Desvantagem: Muitos conflitos, baixa taxa de acerto
+❌ Desvantagem: Muitos conflitos, baixa taxa de acerto
 
 Mapeamento Associativo (assoc=N)
 
-A cache é dividida em conjuntos, e cada conjunto tem N vias. Um bloco pode ser alocado em qualquer via dentro do seu conjunto. Usa política **LRU** (Least Recently Used) para escolher qual via substituir.
+- A cache é dividida em conjuntos, e cada conjunto tem N vias. Um bloco pode ser alocado em qualquer via dentro do seu conjunto. Usa política **LRU** (Least Recently Used) para escolher qual via substituir.
 
-Vantagem: Menos conflitos, maior taxa de acerto
+✅ Vantagem: Menos conflitos, maior taxa de acerto
 
-Desvantagem: Hardware mais complexo
+❌ Desvantagem: Hardware mais complexo
 
 Política LRU
 
-Quando todas as vias de um conjunto estão ocupadas, a via que foi acessada há mais tempo (menos recentemente usada) é escolhida para substituição.
+- Quando todas as vias de um conjunto estão ocupadas, a via que foi acessada há mais tempo (menos recentemente usada) é escolhida para substituição.
 
 ---
 
