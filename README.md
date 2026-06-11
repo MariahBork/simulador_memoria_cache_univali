@@ -241,7 +241,3 @@ Teste 3: Validação de Erros
 - Arquivo inexistente: ❌ Detectado ✅
 - Endereço fora do range: ❌ Detectado ✅
 - Parâmetros inválidos: ❌ Detectado ✅
-
-Professor: Thiago Felski Pereira, M.Sc
-
-UNIVALI - Universidade do Vale do Itajaí
